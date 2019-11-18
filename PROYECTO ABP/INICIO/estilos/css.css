@@ -1,17 +1,32 @@
 
+header{
+    height: 0px;
+    width: 1280px;
+}
+
+body{
+     height: 853px;
+     width: 1280px;
+}
+
+footer{
+    height: 30px;
+    width: 1280px;
+}
+
 
 
 @font-face {
-    font-family: 'Limelight';
+    font-family: 'playfair';
     font-style: normal;
     font-weight: 400;
-    src: url('../font/limelight-v10-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/PlayfairDisplay-Regular.eot'); /* IE9 Compat Modes */
     src: local('Limelight'),
-         url('../font/limelight-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../font/limelight-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../font/limelight-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../font/limelight-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../font/limelight-v10-latin-regular.svg#Limelight') format('svg'); /* Legacy iOS */
+         url('../fonts/PlayfairDisplay-Regular.ttf') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/PlayfairDisplay-Regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/PlayfairDisplay-Regular.svg') format('svg'); /* Legacy iOS */
   }
 
 
@@ -31,7 +46,7 @@ div{
 
 body{
 
-    background-image: url(../img/805.jpg)  ; 
+    background-image: url(../imagenes/805.jpg)  ; 
 
 height: 100%;   
     background-position: center;
@@ -43,7 +58,7 @@ height: 100%;
 
 
 h1{
-    font-family: 'Limelight';
+    font-family: 'playfair';
     font-size: 150px;
     
 
@@ -54,6 +69,7 @@ h1{
     text-align: right;
     color: white;
     padding: 5%;
+    top: 0%;
 }
 
 footer{
@@ -62,7 +78,7 @@ footer{
     position:fixed;
    left:0px;
    bottom:0px;
-   height:30px;
+ 
    width:100%;
 
     }
