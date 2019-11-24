@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="estiloindex.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+
+    <!--Primero el header el cual engloba el título/año del artículo-->
+
+    <header>
+
+    </header>
+    <div class="inicio">
+        <div class="imagen">
+            <button>
+                <img src="imagenes/home.png" width="62px%" height="62px" onclick="volver_inicio()">
+            </button>
+        </div>
+
+
+    </div>
+
+    <!--Section con la foto y el texto a la derecha-->
+
+    <section class="seccion">
+        <div class="año">
+            <img src="/imagenes/teacher.png" width="10%" height="10%">
+            <p>¿What is the Radio?</p>
+        </div>
+        <article class="articulo">
+            <div class="imagenes">
+                <img src="imagenes/radio1.jpg" width="400px" height="400px">
+            </div>
+            <div class="texto">
+                <p style="color:blue">When we talk about the Radio, we talk about a device that sends energy throug
+                    magnetic weaves. This do so we don't have cables. The device
+                    that seds the wave is known as <b> Transmitter</b>. The wave will travel from a pont A to point B
+                    until you reach to <b>Receptor</b>. This magnetic wave is captured by the radio
+                    antenna, transmitting to us the signal emitting. The circuit that there is inside the receiver is
+                    responsible for selecting the station that we tuned.<br> The radio waves they travel
+                    bye the air and have a series of features.<br><br>
+                    <b>Speed:</b> The time it takes for the wave to travel the path from <b>Transmitter</b> to the
+                    <b>Receiver.</b><br><br>
+                    <b>Wavelength: </b>This is the distance between one wave peak and the next one.<br><br>
+                    <b>Frecency: </b> It is the number of waves that reach us and they measure themselves in Hertz.<br>
+
+                </p>
+            </div>
+        </article>
+    </section>
+
+    <!--Footer con las imagenes de atrás y delante-->
+    <footer>
+
+        <div class="contenedor">
+            <div class="atras">
+                <button><img src="imagenes/arrow.png" width="38%"></button>
+            </div>
+
+            <div class="siguiente">
+                <button><a href="explicacion2eng.html"> <img src="imagenes/arrowright.png" width="38%"></a> </button>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script>
+    function volver_inicio() {
+        location.href = "../inicio/inicio.html"
+        var inici = location.href
+        return inici
+    }
+</script>
+
+</html>
