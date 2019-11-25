@@ -1,16 +1,25 @@
 header {
     height: 0px;
-    width: 1280px;
+    width: 100%;
 }
 
 body {
     height: 853px;
-    width: 1280px;
+    width: 60%;
+    background-image: url(../imagenes/805.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: inherit;
 }
 
 footer {
     height: 30px;
-    width: 1280px;
+    width: 100%;
+    background-color: #414042;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+
 }
 
 
@@ -35,31 +44,23 @@ footer {
 }
 
 
-div {
+.principal {
     text-align: center;
     margin-bottom: 10%;
-
-
     font-size: 80px;
     margin-top: 10%;
+}
 
+
+.inicio {
+    display: flex;
+    justify-content: flex-start;
 }
 
 
 
 
 
-body {
-
-    background-image: url(../imagenes/805.jpg);
-
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: inherit;
-
-
-}
 
 
 h1 {
@@ -70,26 +71,10 @@ h1 {
 
 }
 
-.copyright {
-    font-family: sans-serif;
-    text-align: right;
-    color: white;
-    padding: 5%;
-    top: 0%;
-}
 
-footer {
 
-    background-color: #414042;
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
 
-    width: 100%;
-
-}
-
-img {
+.bandera {
     height: 275px;
     width: 275px;
     margin: 2%;
