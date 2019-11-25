@@ -1,76 +1,243 @@
-header{
-    height: 71px;
+header {
+    height: 5px;
     width: 100%;
-    background-color:#414042;
+    background-color: #28c71d;
 }
 
-body{
-     height: 853px;
-     width: 1280px;
+body {
+    height: 853px;
+    width: 100%;
+    margin: 0;
+    background-color: #f5f0e9;
 }
 
-footer{
+footer {
     height: 30px;
-    width: 1280px;
+    width: 100%;
+    background-color: #414042;
+
+    left: 0px;
+    bottom: 0px;
 }
 
 @font-face {
     font-family: 'playfair';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/PlayfairDisplay-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/PlayfairDisplay-Regular.eot');
+    /* IE9 Compat Modes */
     src: local('Limelight'),
-         url('../fonts/PlayfairDisplay-Regular.ttf') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/PlayfairDisplay-Regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/PlayfairDisplay-Regular.svg') format('svg'); /* Legacy iOS */
-  }
-
-div{
-    text-align: center;
-    margin-bottom: 10%;
-    font-size:80px;
-    margin-top: 10%; 
+        url('../fonts/PlayfairDisplay-Regular.ttf') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/PlayfairDisplay-Regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/PlayfairDisplay-Regular.svg') format('svg');
+    /* Legacy iOS */
 }
 
-body{
-    margin: 0;
-    background-image: url(../imagenes/805.jpg)  ; 
-    height: 100%;
-    width: 100%;   
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: inherit;   
-}
 
-h1{
+
+
+h1 {
     font-family: 'playfair';
-    font-size: 150px;
+    font-size: 75px;
+    margin: -1px;
+    text-align: center;
 }
 
-.copyright{
-    font-family: sans-serif;
-    text-align: right;
-    color: white;
-    padding: 5%;
-    top: 0%;
+
+.inicio {
+    display: flex;
+    justify-content: flex-end;
 }
 
-footer{
-    background-color:#414042;
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    width:100%;
-    height: 100px;
-}
-
-img{
-    height: 100%;
-    width: 100%;
-}
-
-img:hover {
+img :hover {
     opacity: 70%;
+}
+
+.volver_inicio {
+    height: 40px;
+    width: auto;
+}
+
+.casa_inicio {
+    width: 40px;
+}
+
+
+.mapa {
+    position: relative;
+    height: 25%;
+    width: 100%;
+
+}
+
+.canada {
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    width: 17%;
+    height: 13%;
+
+
+}
+
+.chile {
+    position: absolute;
+    top: 67%;
+    left: 27%;
+    width: 1.5%;
+    height: 20%;
+
+
+}
+
+.cuba {
+    position: absolute;
+    top: 41%;
+    left: 23%;
+    width: 3%;
+    height: 3%;
+
+}
+
+.tasmania {
+    position: absolute;
+    top: 80%;
+    left: 82.5%;
+    width: 1.5%;
+    height: 2.1%;
+
+
+}
+
+.australia {
+    position: absolute;
+    top: 63%;
+    left: 76.2%;
+    width: 11%;
+    height: 16%;
+
+}
+
+.papua {
+    position: absolute;
+    top: 55%;
+    left: 82%;
+    width: 5%;
+    height: 7%;
+
+
+}
+
+.china {
+    position: absolute;
+    top: 33%;
+    left: 70.5%;
+    width: 8%;
+    height: 10%;
+
+}
+
+.corea {
+    position: absolute;
+    top: 33%;
+    left: 78.8%;
+    width: 1%;
+    height: 2%;
+}
+
+
+.india {
+    position: absolute;
+    top: 40%;
+    left: 65.5%;
+    width: 4%;
+    height: 12%;
+
+}
+
+.arabia {
+    position: absolute;
+    top: 38%;
+    left: 56%;
+    width: 4%;
+    height: 9%;
+
+
+}
+
+.españa {
+    position: absolute;
+    top: 29.1%;
+    left: 43.7%;
+    width: 2.5%;
+    height: 4.5%;
+
+}
+
+.alemania {
+
+    position: absolute;
+    top: 23%;
+    left: 47.5%;
+    width: 3%;
+    height: 5%;
+
+
+}
+
+.rusia {
+    position: absolute;
+    top: 13%;
+    left: 54%;
+    width: 33%;
+    height: 15%;
+
+}
+
+.argelia {
+    position: absolute;
+    top: 34%;
+    left: 45%;
+    width: 3%;
+    height: 7%;
+
+
+}
+
+.congo {
+    position: absolute;
+    top: 56%;
+    left: 50.5%;
+    width: 2.6%;
+    height: 7%;
+
+
+
+}
+
+.angola {
+    position: absolute;
+    top: 63%;
+    left: 49%;
+    width: 3.5%;
+    height: 5%;
+
+
+
+}
+
+.uganda {
+    position: absolute;
+    top: 54%;
+    left: 53%;
+    width: 2%;
+    height: 4%;
+
+
 }
