@@ -1,0 +1,147 @@
+*{
+    @media (min-width: 1280px) { height: auto;
+    min-width:auto;
+    min-height:1028px;
+    }
+}
+@font-face {
+    font-family: 'LibreBaskerville';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Libre_Baskerville/Libre_Baskerville/LibreBaskerville-Regular.ttf');
+  }
+header{
+    height: auto;
+}
+body{
+    border-top: 3px solid #28c71d;
+    height: 100%;
+    /*background-color:#DAC292;*/
+    background-color: #E0CDA5;
+    background-image: linear-gradient(to right, #DAC292 , #E0CDA5 , #E7D8B9);
+}
+/*Boton Inicio*/
+.inicio{
+    display: flex;
+    justify-content: flex-end;
+}
+.volver_inicio{
+    height: 40px;
+    width: auto;
+}
+.casa_inicio{
+    width: 40px;
+}
+/*Imagenes elegir donde ir*/
+.eleccion{
+    background-color: #E0CDA5;
+    /*background-image: linear-gradient(to right, #DAC292 , #E0CDA5 , #E7D8B9);*/
+    -webkit-animation-name: fondo; 
+    -webkit-animation-duration: 4s; 
+    animation-name: fondo;
+    animation-duration: 4s;
+    display: flex;
+    height: 535px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@keyframes fondo{
+    from {background-color: #E7D8B9;}
+    to {background-color: #DAC292;}
+}
+.explicacion_menu{
+    transition: all 2s;
+    display: inline-flex;
+    margin-left:-5%;
+}
+.explicacion_menu img{
+    height: 120px;
+    width: 220px;
+    border-color: black;
+    border-style: inset;
+    border-width: 2px;
+    border-radius: 5%;
+}
+/*Pruebas Transition*/
+
+.mapa_menu{
+    transition: all 2s;
+    display: inline-flex;
+    margin-left: 10%;    
+
+}
+.mapa_menu img{
+    height: 120px;
+    width: 220px;
+    border-color: black;
+    border-style: inset;
+    border-width: 2px;
+    border-radius: 5%;
+}
+
+.juegos_menu{
+    display: inline-flex;
+    transition: all 2s;
+    margin-left: -5%;
+}
+.juegos_menu img{
+    height: 120px;
+    width: 220px;
+    border-color: black;
+    border-style: inset;
+    border-width: 2px;
+    border-radius: 5%;
+}
+
+.ranking_menu{
+    transition: all 2s;
+    display: inline-flex;
+    margin-left: 10%;
+}
+.ranking_menu img{
+    height: 120px;
+    width: 220px;
+    border-width: 2px;
+    border-color: black;
+    border-style: inset;
+    border-radius: 5%;
+}
+
+/*Flexbox colocación elecciones*/
+.tower_group_1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+} 
+.tower_group_2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+/*prueba*/
+.extra{
+    height: auto;
+}
+/*Footer Pagina*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 57px;
+    background-color: #414042;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'LibreBaskerville';
+}
+/*Titulo*/
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'LibreBaskerville';
+    
+}
+button{background-color: #e7e7e7; color: black;}
