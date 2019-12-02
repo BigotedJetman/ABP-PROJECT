@@ -1,6 +1,9 @@
+*{
+  box-sizing: border-box;
+}
 body{
-    background-color: rgb(113,113,255);
-    /*background-image: url(../imagenes/805.jpg);*/
+    background-color: #E0CDA5;
+    background-image: linear-gradient(to right, #DAC292 , #E0CDA5 , #E7D8B9);
     height: 100%;
 }
 #main{
@@ -12,7 +15,6 @@ body{
 	box-shadow: 5px 5px black;
 }
 header{
-
 	text-align: center;
 	margin-top: -40px;
 	width:100%;
@@ -30,19 +32,16 @@ header{
 	border-top: 4px solid green;
 	width:100%;
 	height: 100%;
-	background-color:rgb(197, 236, 193);
+  background-color:rgb(197, 236, 193);
 	color:rgb(63, 63, 128);
 	text-shadow: 0.6px 0.5px black;
 }
-
 #Pregunta{
 	text-align: center;
 	padding:0px;
 	font-size: 2em;
 	text-shadow: 0.6px 0.5px black;
 }
-
-
 #opciones p{
 	cursor: pointer;
 	color:black;
@@ -56,8 +55,9 @@ header{
 	font-size: 1.3em;
 	cursor: pointer;
 	color: rgb(255, 255, 255);
+	/*background-image: url(../imagenes/805.jpg);*/
 	font-weight: bold;
-	background-color: rgb(92,158,205);
+	background-color: rgb(66, 63, 214);
 	border:1px solid black;
 	box-shadow: 1px 1px black;
     transition:all 1s;
@@ -69,6 +69,10 @@ header{
 .opcionesN:hover{
 	background-color:#7171FF; 
 }
+.respuesta{
+	background-color: #E0CDA5;
+  background-image: linear-gradient(to right, rgb(172, 170, 167) , rgb(112, 111, 108) , rgb(70, 69, 68));
+}
 /*
 copyright en footer
 */
@@ -77,4 +81,16 @@ copyright en footer
     text-align: right;
     color: white;
     padding: 5%;
+}
+/*Boton Inicio*/
+.inicio{
+  display: flex;
+  justify-content: flex-end;
+}
+.volver_inicio{
+  height: 45px;
+  width: auto;
+}
+.casa_inicio{
+  width: 40px;
 }
