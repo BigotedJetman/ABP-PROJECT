@@ -61,7 +61,7 @@ body{
 .Bailon_menu img{
     height: 175px;
     width: 275px;
-    border-color: #28c71d;
+    border-color: black;
     border-style: inset;
     border-width: 5px 3px 5px 1px;
     border-radius: 25%;
@@ -71,13 +71,13 @@ body{
 .JeanCarlos_menu{
     transition: all 2s;
     display: inline-flex;
-    margin-left: 10%;    
+    margin-left: 7.5%;    
 
 }
 .JeanCarlos_menu img{
     height: 175px;
     width: 275px;
-    border-color: #28c71d;
+    border-color: black;
     border-style: inset;
     border-width: 5px 3px 5px 1px;
     border-radius: 25%;
@@ -91,7 +91,7 @@ body{
 .Adri_menu img{
     height: 175px;
     width: 275px;
-    border-color: #28c71d;
+    border-color: black;
     border-style: inset;
     border-width: 5px 3px 5px 1px;
     border-radius: 25%;
@@ -106,7 +106,7 @@ body{
     height: 175px;
     width: 275px;
     border-width: 5px 3px 5px 1px;
-    border-color: #28c71d;
+    border-color: black;
     border-style: inset;
     border-radius: 25%;
     margin-right: -10%;
@@ -147,4 +147,22 @@ body{
     align-items: center;
     font-family: 'LibreBaskerville';
     text-shadow: 0 0 2px #FF0000, 0 0 4px rgb(0, 255, 21);
+}
+/*Bitmoji IMG*/
+.bitmoji{
+    display: flex;
+    width: 275px;
+    height: 300px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: -15%;
+}
+
+.bitmoji img{
+    display: flex;
+    width: 275px;
+    height: 300px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: -25%;
 }
