@@ -60,26 +60,26 @@ body{
 .explicacion_menu img{
     height: 175px;
     width: 275px;
-    border-color: #28c71d;
+    border-color: black;
     border-style: inset;
     border-width: 5px 3px 5px 1px;
-    border-radius: 5%;
+    border-radius: 25%;
 }
 /*Pruebas Transition*/
 
 .mapa_menu{
     transition: all 2s;
     display: inline-flex;
-    margin-left: 10%;    
+    margin-left: 7.5%;    
 
 }
 .mapa_menu img{
     height: 175px;
     width: 275px;
-    border-color: #28c71d;
+    border-color: black;
     border-style: inset;
     border-width: 5px 3px 5px 1px;
-    border-radius: 5%;
+    border-radius: 25%;
 }
 
 .juegos_menu{
@@ -90,10 +90,10 @@ body{
 .juegos_menu img{
     height: 175px;
     width: 275px;
-    border-color: #28c71d;
+    border-color: black;
     border-style: inset;
     border-width: 5px 3px 5px 1px;
-    border-radius: 5%;
+    border-radius: 25%;
 }
 
 .ranking_menu{
@@ -105,9 +105,9 @@ body{
     height: 175px;
     width: 275px;
     border-width: 5px 3px 5px 1px;
-    border-color: #28c71d;
+    border-color: black;
     border-style: inset;
-    border-radius: 5%;
+    border-radius: 25%;
 }
 
 /*Flexbox colocación elecciones*/
@@ -145,4 +145,22 @@ body{
     align-items: center;
     font-family: 'LibreBaskerville';
     text-shadow: 0 0 2px #FF0000, 0 0 4px rgb(0, 255, 21);
+}
+/*Bitmoji IMG*/
+.bitmoji{
+    display: flex;
+    width: 275px;
+    height: 300px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: -15%;
+}
+
+.bitmoji img{
+    display: flex;
+    width: 275px;
+    height: 300px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: -25%;
 }
